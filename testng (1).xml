@@ -1,0 +1,8 @@
+<suite parallel="tests" name="Suite">
+  <test name="TestConfig">
+	<parameter name="property" value="config.properties"/>  
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test>
+</suite> 
